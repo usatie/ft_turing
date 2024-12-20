@@ -25,4 +25,7 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all clean fclean re
+fmt:
+	ocamlformat -i $(SRCS)
+
+.PHONY: all clean fclean re fmt
