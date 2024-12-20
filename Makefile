@@ -8,6 +8,7 @@ YOJSON_INC = -I $(YOJSON_DIR)
 
 INCLUDES  = -I src $(YOJSON_INC)
 SRCS      = src/argparse.ml\
+			src/turing_machine.ml\
 			src/main.ml\
 
 LIBS      = $(YOJSON_LIB)
