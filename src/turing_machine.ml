@@ -16,7 +16,7 @@ type transition_rule = {
   action : action;
 }
 
-type turing_machine = {
+type turing_machine_description = {
   name : string;
   alphabet : string list;
   blank : string;
@@ -34,7 +34,7 @@ let transition_rule_of_json json =
     action = json |> member "action" |> to_string |> action_of_string;
   }
 
-let turing_machine_of_json json =
+let description_of_json json =
   {
     name = json |> member "name" |> to_string;
     alphabet = json |> member "alphabet" |> to_list |> List.map to_string;
@@ -56,13 +56,13 @@ let print_transition_rule state rule =
     rule.write
     (string_of_action rule.action)
 
-let print_turing_machine tm =
-  Printf.printf "Name: %s\n" tm.name;
-  Printf.printf "Alphabet: [ %s ]\n" (String.concat ", " tm.alphabet);
-  Printf.printf "States  : [ %s ]\n" (String.concat ", " tm.states);
-  Printf.printf "Initial : %s\n" tm.initial;
-  Printf.printf "Finals  : [ %s ]\n" (String.concat ", " tm.finals);
+let print_description tmd =
+  Printf.printf "Name: %s\n" tmd.name;
+  Printf.printf "Alphabet: [ %s ]\n" (String.concat ", " tmd.alphabet);
+  Printf.printf "States  : [ %s ]\n" (String.concat ", " tmd.states);
+  Printf.printf "Initial : %s\n" tmd.initial;
+  Printf.printf "Finals  : [ %s ]\n" (String.concat ", " tmd.finals);
   List.iter
     (fun (state, rules) ->
       List.iter (fun rule -> print_transition_rule state rule) rules)
-    tm.transitions
+    tmd.transitions
