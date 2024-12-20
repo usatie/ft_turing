@@ -1,3 +1,27 @@
+NAME     = ft_turing
+OCAMLC   = ocamlopt
+SRCS     = src/main.ml\
+
+OBJS     = $(SRCS:%.ml=%.o)
+
+all: $(NAME)
+
+$(NAME): $(OBJS)
+	$(OCAMLC) -o $(NAME) $(OBJS)
+
+%.o: %.ml
+	$(OCAMLC) -c $<
+
+clean:
+	$(RM) $(OBJS)
+
+fclean: clean
+	$(RM) $(NAME)
+
+re: fclean all
+
+.PHONY: all clean fclean re
+
 # Install ocaml if not installed
 # Needs to be run on both mac/Linux
 ifeq ($(OS),Windows_NT)
@@ -13,10 +37,6 @@ else
 	# Linux
 	OCAML = $(shell which ocaml)
 endif
-
-all:
-	@echo "OCAML: $(OCAML)"
-	@echo "OSFLAG: $(OSFLAG)"
 
 install:
 	@echo "Installing OPAM"
