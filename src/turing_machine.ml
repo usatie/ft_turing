@@ -26,6 +26,20 @@ type turing_machine_description = {
   transitions : (string * transition_rule list) list;
 }
 
+type turing_machine = {
+    description: turing_machine_description;
+    tape: string;
+    head_pos: int;
+    state: string;
+}
+
+let f tmd input = {
+    description = tmd;
+    tape = input;
+    head_pos = 0;
+    state = tmd.initial;
+}
+
 let transition_rule_of_json json =
   {
     read = json |> member "read" |> to_string;

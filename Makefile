@@ -42,4 +42,9 @@ check_yojson:
 		opam install yojson --yes; \
 	fi
 
+test:
+	./$(NAME) inputs/unary_sub.json input && echo "Test passed" || echo "Test failed"
+	./$(NAME) inputs/invalid.json input && echo "Test failed" || echo "Test passed"
+	./$(NAME) nosuchfile input && echo "Test failed" || echo "Test passed"
+
 .PHONY: all clean fclean re fmt check_yojson
