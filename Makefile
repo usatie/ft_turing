@@ -7,10 +7,12 @@ YOJSON_LIB = $(YOJSON_DIR)/yojson.cmxa
 YOJSON_INC = -I $(YOJSON_DIR)
 
 INCLUDES  = -I src $(YOJSON_INC)
-SRCS_MLI  = src/types.mli
+SRCS_MLI  = src/types.mli\
+			src/json_parser.mli\
 
 SRCS      = src/argparse.ml\
 			src/types.ml\
+			src/json_parser.ml\
 			src/turing_machine.ml\
 			src/main.ml\
 
