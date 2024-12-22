@@ -5,7 +5,7 @@ let main () =
   let tmd = Json_parser.description_of_json jsondata in
   Printer.print_description tmd;
   let tm = Turing_machine.create_machine tmd input in
-  Printer.print_machine tm
+  Turing_machine.run_machine tm
 
 let () =
   try main () with
