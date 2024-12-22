@@ -24,7 +24,7 @@ CMX_FILES = $(SRCS:%.ml=%.cmx)
 CMI_FILES = $(SRCS_MLI:%.mli=%.cmi)
 
 all: check_yojson $(NAME)
-	./$(NAME) inputs/unary_sub.json input
+	./$(NAME) inputs/unary_sub.json "111-11="
 
 $(NAME): $(CMX_FILES)
 	$(OCAML_OPT) -o $(NAME) $(LIBS) $(CMX_FILES) 
