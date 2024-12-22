@@ -7,14 +7,17 @@ YOJSON_LIB = $(YOJSON_DIR)/yojson.cmxa
 YOJSON_INC = -I $(YOJSON_DIR)
 
 INCLUDES  = -I src $(YOJSON_INC)
+SRCS_MLI  = src/types.mli
+
 SRCS      = src/argparse.ml\
+			src/types.ml\
 			src/turing_machine.ml\
 			src/main.ml\
 
 LIBS      = $(YOJSON_LIB)
 OBJS      = $(SRCS:%.ml=%.o)
 CMX_FILES = $(SRCS:%.ml=%.cmx)
-CMI_FILES = $(SRCS:%.ml=%.cmi)
+CMI_FILES = $(SRCS_MLI:%.mli=%.cmi)
 
 all: check_yojson $(NAME)
 	./$(NAME) inputs/unary_sub.json input
@@ -22,7 +25,10 @@ all: check_yojson $(NAME)
 $(NAME): $(CMX_FILES)
 	$(OCAML_OPT) -o $(NAME) $(LIBS) $(CMX_FILES) 
 
-%.cmx: %.ml
+%.cmi: %.mli
+	$(OCAML_OPT) -c $< $(INCLUDES)
+
+%.cmx: %.ml %.cmi
 	$(OCAML_OPT) -c $< $(INCLUDES)
 
 clean:
@@ -46,5 +52,6 @@ test:
 	./$(NAME) inputs/unary_sub.json input && echo "Test passed" || echo "Test failed"
 	./$(NAME) inputs/invalid.json input && echo "Test failed" || echo "Test passed"
 	./$(NAME) nosuchfile input && echo "Test failed" || echo "Test passed"
+	./$(NAME) inputs/invalid-action.json input && echo "Test failed" || echo "Test passed"
 
 .PHONY: all clean fclean re fmt check_yojson

@@ -1,44 +1,8 @@
 open Yojson.Basic.Util
+open Types
 
-type action = Left | Right
-
-let action_of_string = function
-  | "LEFT" -> Left
-  | "RIGHT" -> Right
-  | s -> failwith ("Unknown action: " ^ s)
-
-let string_of_action = function Left -> "LEFT" | Right -> "RIGHT"
-
-type transition_rule = {
-  read : string;
-  to_state : string;
-  write : string;
-  action : action;
-}
-
-type turing_machine_description = {
-  name : string;
-  alphabet : string list;
-  blank : string;
-  states : string list;
-  initial : string;
-  finals : string list;
-  transitions : (string * transition_rule list) list;
-}
-
-type turing_machine = {
-    description: turing_machine_description;
-    tape: string;
-    head_pos: int;
-    state: string;
-}
-
-let f tmd input = {
-    description = tmd;
-    tape = input;
-    head_pos = 0;
-    state = tmd.initial;
-}
+let create_machine tmd input =
+  { description = tmd; tape = input; head_pos = 0; state = tmd.initial }
 
 let transition_rule_of_json json =
   {
@@ -49,21 +13,25 @@ let transition_rule_of_json json =
   }
 
 let description_of_json json =
-  {
-    name = json |> member "name" |> to_string;
-    alphabet = json |> member "alphabet" |> to_list |> List.map to_string;
-    blank = json |> member "blank" |> to_string;
-    states = json |> member "states" |> to_list |> List.map to_string;
-    initial = json |> member "initial" |> to_string;
-    finals = json |> member "finals" |> to_list |> List.map to_string;
-    transitions =
-      json |> member "transitions" |> to_assoc
-      |> List.map (fun (state, transitions_json) ->
-             let rules =
-               transitions_json |> to_list |> List.map transition_rule_of_json
-             in
-             (state, rules));
-  }
+  try
+    {
+      name = json |> member "name" |> to_string;
+      alphabet = json |> member "alphabet" |> to_list |> List.map to_string;
+      blank = json |> member "blank" |> to_string;
+      states = json |> member "states" |> to_list |> List.map to_string;
+      initial = json |> member "initial" |> to_string;
+      finals = json |> member "finals" |> to_list |> List.map to_string;
+      transitions =
+        json |> member "transitions" |> to_assoc
+        |> List.map (fun (state, transitions_json) ->
+               let rules =
+                 transitions_json |> to_list |> List.map transition_rule_of_json
+               in
+               (state, rules));
+    }
+  with exn ->
+    let msg = Printf.sprintf "Invalid JSON: %s" (Printexc.to_string exn) in
+    raise (Invalid_argument msg)
 
 let print_transition_rule state rule =
   Printf.printf "(%s, %s) -> (%s, %s, %s)\n" state rule.read rule.to_state
