@@ -1,0 +1,6 @@
+(* printer.mli *)
+
+open Types
+
+val print_transition_rule : string -> transition_rule -> unit
+val print_description : turing_machine_description -> unit
