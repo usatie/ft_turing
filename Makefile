@@ -10,6 +10,8 @@ INCLUDES  = -I src $(YOJSON_INC)
 SRCS_MLI  = src/types.mli\
 			src/json_parser.mli\
 			src/printer.mli\
+			src/argparse.mli\
+			src/turing_machine.mli\
 
 SRCS      = src/argparse.ml\
 			src/types.ml\
@@ -24,7 +26,6 @@ CMX_FILES = $(SRCS:%.ml=%.cmx)
 CMI_FILES = $(SRCS_MLI:%.mli=%.cmi)
 
 all: check_yojson $(NAME)
-	./$(NAME) inputs/unary_sub.json "111-11="
 
 $(NAME): $(CMX_FILES)
 	$(OCAML_OPT) -o $(NAME) $(LIBS) $(CMX_FILES) 
