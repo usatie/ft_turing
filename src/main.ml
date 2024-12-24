@@ -13,5 +13,5 @@ let () =
       Printf.eprintf "Invalid json: %s\n" msg;
       exit 1
   | exn ->
-      Printf.eprintf "%s\n" (Printexc.to_string exn);
+      Printf.eprintf "Error: %s\n" (Printexc.to_string exn);
       exit 1
