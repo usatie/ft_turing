@@ -6,16 +6,16 @@ val action_of_string : string -> action
 val string_of_action : action -> string
 
 type transition_rule = {
-  read : string;
+  read : char;
   to_state : string;
-  write : string;
+  write : char;
   action : action;
 }
 
 type turing_machine_description = {
   name : string;
   alphabet : string list;
-  blank : string;
+  blank : char;
   states : string list;
   initial : string;
   finals : string list;
