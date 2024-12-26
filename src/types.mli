@@ -4,6 +4,7 @@ type action = Left | Right
 
 val action_of_string : string -> action
 val string_of_action : action -> string
+val string_of_alphabet : char list -> string
 
 type transition_rule = {
   read : char;
@@ -14,7 +15,7 @@ type transition_rule = {
 
 type turing_machine_description = {
   name : string;
-  alphabet : string list;
+  alphabet : char list;
   blank : char;
   states : string list;
   initial : string;

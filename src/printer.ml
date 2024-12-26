@@ -37,7 +37,7 @@ let print_transition_rule state rule =
 let print_description tmd =
   let width = 80 in
   print_box tmd.name width;
-  Printf.printf "Alphabet: [ %s ]\n" (String.concat ", " tmd.alphabet);
+  Printf.printf "Alphabet: [ %s ]\n" (string_of_alphabet tmd.alphabet);
   Printf.printf "States  : [ %s ]\n" (String.concat ", " tmd.states);
   Printf.printf "Initial : %s\n" tmd.initial;
   Printf.printf "Finals  : [ %s ]\n" (String.concat ", " tmd.finals);

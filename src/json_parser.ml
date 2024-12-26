@@ -19,7 +19,7 @@ let transition_rule_of_json json =
 let description_of_json json =
   {
     name = json |> member "name" |> to_string;
-    alphabet = json |> member "alphabet" |> to_list |> List.map to_string;
+    alphabet = json |> member "alphabet" |> to_list |> List.map to_char;
     blank = json |> member "blank" |> to_char;
     states = json |> member "states" |> to_list |> List.map to_string;
     initial = json |> member "initial" |> to_string;

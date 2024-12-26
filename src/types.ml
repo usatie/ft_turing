@@ -9,6 +9,10 @@ let action_of_string = function
 
 let string_of_action = function Left -> "LEFT" | Right -> "RIGHT"
 
+let string_of_alphabet alphabet =
+  Printf.sprintf "[ %s ]"
+    (String.concat ", " (List.map (String.make 1) alphabet))
+
 type transition_rule = {
   read : char;
   to_state : string;
@@ -18,7 +22,7 @@ type transition_rule = {
 
 type turing_machine_description = {
   name : string;
-  alphabet : string list;
+  alphabet : char list;
   blank : char;
   states : string list;
   initial : string;

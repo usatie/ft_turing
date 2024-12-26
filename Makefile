@@ -12,12 +12,14 @@ SRCS_MLI  = src/types.mli\
 			src/printer.mli\
 			src/argparse.mli\
 			src/turing_machine.mli\
+			src/validater.mli\
 
 SRCS      = src/argparse.ml\
 			src/types.ml\
 			src/json_parser.ml\
 			src/printer.ml\
 			src/turing_machine.ml\
+			src/validater.ml\
 			src/main.ml\
 
 LIBS      = $(YOJSON_LIB)
