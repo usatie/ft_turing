@@ -8,6 +8,7 @@ YOJSON_INC = -I $(YOJSON_DIR)
 
 INCLUDES  = -I src $(YOJSON_INC)
 SRCS_MLI  = src/types.mli\
+			src/utils.mli\
 			src/json_parser.mli\
 			src/printer.mli\
 			src/argparse.mli\
@@ -16,6 +17,7 @@ SRCS_MLI  = src/types.mli\
 
 SRCS      = src/argparse.ml\
 			src/types.ml\
+			src/utils.ml\
 			src/json_parser.ml\
 			src/printer.ml\
 			src/turing_machine.ml\

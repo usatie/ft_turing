@@ -1,3 +1,4 @@
+open Utils
 open Types
 
 let contains_only_allowed_alphabet alphabet input =
@@ -12,7 +13,6 @@ let does_not_contain_blank blank input =
   else Ok input
 
 let blank_is_part_of_alphabet alphabet blank = List.mem blank alphabet
-let ( >>= ) = Result.bind
 
 let validate_description tmd =
   if blank_is_part_of_alphabet tmd.alphabet tmd.blank then Ok tmd
