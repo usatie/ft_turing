@@ -1,0 +1,30 @@
+{
+	"name"   : "is_palindrome",
+	"alphabet": [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "." ],
+	"blank"  : ".",
+	"states" : [ "1_main_loop", "2_goto_last.<alpha>", "3_checklast", "4_return_false", "5_goto_first", "HALT" ],
+	"initial" : "1_main_loop",
+	"finals" : [ "HALT" ],
+	"transitions" : {
+		"1_main_loop": [
+			{ "read" : ".", "to_state": "HALT", "write": "y", "action": "RIGHT"},
+			{ "read" : "<any>", "to_state": "2_goto_last.<read>", "write": ".", "action": "RIGHT"}
+		],
+		"2_goto_last.<alphanum>": [
+			{ "read" : ".", "to_state": "3_checklast.<alphanum>", "write": ".", "action": "LEFT"},
+			{ "read" : "<any>", "to_state": "2_goto_last.<alphanum>", "write": "<read>", "action": "RIGHT"}
+		],
+		"3_checklast.<alphanum>": [
+			{ "read" : ".", "to_state": "HALT", "write": "y", "action": "RIGHT"},
+			{ "read" : "<alphanum>", "to_state": "5_goto_first", "write": ".", "action": "LEFT"},
+			{ "read" : "<any>", "to_state": "4_return_false", "write": "<read>", "action": "RIGHT"}
+		],
+		"4_return_false": [
+			{ "read" : ".", "to_state": "HALT", "write": "n", "action": "RIGHT"}
+		],
+		"5_goto_first": [
+			{ "read" : ".", "to_state": "1_main_loop", "write": ".", "action": "RIGHT"},
+			{ "read" : "<any>", "to_state": "5_goto_first", "write": "<read>", "action": "LEFT"}
+		]
+	}
+}

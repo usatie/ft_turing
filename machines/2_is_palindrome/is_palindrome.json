@@ -27,6 +27,16 @@
     "x",
     "y",
     "z",
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
     "."
   ],
   "blank": ".",
@@ -230,6 +240,66 @@
         "to_state": "2_goto_last.z",
         "write": ".",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.0",
+        "write": ".",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.1",
+        "write": ".",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.2",
+        "write": ".",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.3",
+        "write": ".",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.4",
+        "write": ".",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.5",
+        "write": ".",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.6",
+        "write": ".",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.7",
+        "write": ".",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.8",
+        "write": ".",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.9",
+        "write": ".",
+        "action": "RIGHT"
       }
     ],
     "4_return_false": [
@@ -402,6 +472,66 @@
         "to_state": "5_goto_first",
         "write": "z",
         "action": "LEFT"
+      },
+      {
+        "read": "0",
+        "to_state": "5_goto_first",
+        "write": "0",
+        "action": "LEFT"
+      },
+      {
+        "read": "1",
+        "to_state": "5_goto_first",
+        "write": "1",
+        "action": "LEFT"
+      },
+      {
+        "read": "2",
+        "to_state": "5_goto_first",
+        "write": "2",
+        "action": "LEFT"
+      },
+      {
+        "read": "3",
+        "to_state": "5_goto_first",
+        "write": "3",
+        "action": "LEFT"
+      },
+      {
+        "read": "4",
+        "to_state": "5_goto_first",
+        "write": "4",
+        "action": "LEFT"
+      },
+      {
+        "read": "5",
+        "to_state": "5_goto_first",
+        "write": "5",
+        "action": "LEFT"
+      },
+      {
+        "read": "6",
+        "to_state": "5_goto_first",
+        "write": "6",
+        "action": "LEFT"
+      },
+      {
+        "read": "7",
+        "to_state": "5_goto_first",
+        "write": "7",
+        "action": "LEFT"
+      },
+      {
+        "read": "8",
+        "to_state": "5_goto_first",
+        "write": "8",
+        "action": "LEFT"
+      },
+      {
+        "read": "9",
+        "to_state": "5_goto_first",
+        "write": "9",
+        "action": "LEFT"
       }
     ],
     "2_goto_last.a": [
@@ -565,6 +695,66 @@
         "read": "z",
         "to_state": "2_goto_last.a",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.a",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.a",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.a",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.a",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.a",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.a",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.a",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.a",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.a",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.a",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -730,6 +920,66 @@
         "to_state": "2_goto_last.b",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.b",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.b",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.b",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.b",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.b",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.b",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.b",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.b",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.b",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.b",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "2_goto_last.c": [
@@ -893,6 +1143,66 @@
         "read": "z",
         "to_state": "2_goto_last.c",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.c",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.c",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.c",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.c",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.c",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.c",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.c",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.c",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.c",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.c",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -1058,6 +1368,66 @@
         "to_state": "2_goto_last.d",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.d",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.d",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.d",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.d",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.d",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.d",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.d",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.d",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.d",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.d",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "2_goto_last.e": [
@@ -1221,6 +1591,66 @@
         "read": "z",
         "to_state": "2_goto_last.e",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.e",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.e",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.e",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.e",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.e",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.e",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.e",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.e",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.e",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.e",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -1386,6 +1816,66 @@
         "to_state": "2_goto_last.f",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.f",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.f",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.f",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.f",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.f",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.f",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.f",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.f",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.f",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.f",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "2_goto_last.g": [
@@ -1549,6 +2039,66 @@
         "read": "z",
         "to_state": "2_goto_last.g",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.g",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.g",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.g",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.g",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.g",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.g",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.g",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.g",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.g",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.g",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -1714,6 +2264,66 @@
         "to_state": "2_goto_last.h",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.h",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.h",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.h",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.h",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.h",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.h",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.h",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.h",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.h",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.h",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "2_goto_last.i": [
@@ -1877,6 +2487,66 @@
         "read": "z",
         "to_state": "2_goto_last.i",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.i",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.i",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.i",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.i",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.i",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.i",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.i",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.i",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.i",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.i",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -2042,6 +2712,66 @@
         "to_state": "2_goto_last.j",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.j",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.j",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.j",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.j",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.j",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.j",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.j",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.j",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.j",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.j",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "2_goto_last.k": [
@@ -2205,6 +2935,66 @@
         "read": "z",
         "to_state": "2_goto_last.k",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.k",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.k",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.k",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.k",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.k",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.k",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.k",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.k",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.k",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.k",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -2370,6 +3160,66 @@
         "to_state": "2_goto_last.l",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.l",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.l",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.l",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.l",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.l",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.l",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.l",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.l",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.l",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.l",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "2_goto_last.m": [
@@ -2533,6 +3383,66 @@
         "read": "z",
         "to_state": "2_goto_last.m",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.m",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.m",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.m",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.m",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.m",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.m",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.m",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.m",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.m",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.m",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -2698,6 +3608,66 @@
         "to_state": "2_goto_last.n",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.n",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.n",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.n",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.n",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.n",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.n",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.n",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.n",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.n",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.n",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "2_goto_last.o": [
@@ -2861,6 +3831,66 @@
         "read": "z",
         "to_state": "2_goto_last.o",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.o",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.o",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.o",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.o",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.o",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.o",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.o",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.o",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.o",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.o",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -3026,6 +4056,66 @@
         "to_state": "2_goto_last.p",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.p",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.p",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.p",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.p",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.p",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.p",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.p",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.p",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.p",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.p",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "2_goto_last.q": [
@@ -3189,6 +4279,66 @@
         "read": "z",
         "to_state": "2_goto_last.q",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.q",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.q",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.q",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.q",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.q",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.q",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.q",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.q",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.q",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.q",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -3354,6 +4504,66 @@
         "to_state": "2_goto_last.r",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.r",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.r",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.r",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.r",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.r",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.r",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.r",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.r",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.r",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.r",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "2_goto_last.s": [
@@ -3517,6 +4727,66 @@
         "read": "z",
         "to_state": "2_goto_last.s",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.s",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.s",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.s",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.s",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.s",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.s",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.s",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.s",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.s",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.s",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -3682,6 +4952,66 @@
         "to_state": "2_goto_last.t",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.t",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.t",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.t",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.t",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.t",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.t",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.t",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.t",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.t",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.t",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "2_goto_last.u": [
@@ -3845,6 +5175,66 @@
         "read": "z",
         "to_state": "2_goto_last.u",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.u",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.u",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.u",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.u",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.u",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.u",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.u",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.u",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.u",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.u",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -4010,6 +5400,66 @@
         "to_state": "2_goto_last.v",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.v",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.v",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.v",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.v",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.v",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.v",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.v",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.v",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.v",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.v",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "2_goto_last.w": [
@@ -4173,6 +5623,66 @@
         "read": "z",
         "to_state": "2_goto_last.w",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.w",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.w",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.w",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.w",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.w",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.w",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.w",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.w",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.w",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.w",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -4338,6 +5848,66 @@
         "to_state": "2_goto_last.x",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.x",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.x",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.x",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.x",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.x",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.x",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.x",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.x",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.x",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.x",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "2_goto_last.y": [
@@ -4501,6 +6071,66 @@
         "read": "z",
         "to_state": "2_goto_last.y",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.y",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.y",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.y",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.y",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.y",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.y",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.y",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.y",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.y",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.y",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -4666,6 +6296,2306 @@
         "to_state": "2_goto_last.z",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.z",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.z",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.z",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.z",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.z",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.z",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.z",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.z",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.z",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.z",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "2_goto_last.0": [
+      {
+        "read": ".",
+        "to_state": "3_checklast.0",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "2_goto_last.0",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "2_goto_last.0",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "2_goto_last.0",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "2_goto_last.0",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "2_goto_last.0",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "2_goto_last.0",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "2_goto_last.0",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "2_goto_last.0",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "2_goto_last.0",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "2_goto_last.0",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "2_goto_last.0",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "2_goto_last.0",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "2_goto_last.0",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "2_goto_last.0",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "2_goto_last.0",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "2_goto_last.0",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "2_goto_last.0",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "2_goto_last.0",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "2_goto_last.0",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "2_goto_last.0",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "2_goto_last.0",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "2_goto_last.0",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "2_goto_last.0",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "2_goto_last.0",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "2_goto_last.0",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "2_goto_last.0",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.0",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.0",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.0",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.0",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.0",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.0",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.0",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.0",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.0",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.0",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "2_goto_last.1": [
+      {
+        "read": ".",
+        "to_state": "3_checklast.1",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "2_goto_last.1",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "2_goto_last.1",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "2_goto_last.1",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "2_goto_last.1",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "2_goto_last.1",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "2_goto_last.1",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "2_goto_last.1",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "2_goto_last.1",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "2_goto_last.1",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "2_goto_last.1",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "2_goto_last.1",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "2_goto_last.1",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "2_goto_last.1",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "2_goto_last.1",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "2_goto_last.1",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "2_goto_last.1",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "2_goto_last.1",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "2_goto_last.1",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "2_goto_last.1",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "2_goto_last.1",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "2_goto_last.1",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "2_goto_last.1",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "2_goto_last.1",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "2_goto_last.1",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "2_goto_last.1",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "2_goto_last.1",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.1",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.1",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.1",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.1",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.1",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.1",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.1",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.1",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.1",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.1",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "2_goto_last.2": [
+      {
+        "read": ".",
+        "to_state": "3_checklast.2",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "2_goto_last.2",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "2_goto_last.2",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "2_goto_last.2",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "2_goto_last.2",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "2_goto_last.2",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "2_goto_last.2",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "2_goto_last.2",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "2_goto_last.2",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "2_goto_last.2",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "2_goto_last.2",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "2_goto_last.2",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "2_goto_last.2",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "2_goto_last.2",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "2_goto_last.2",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "2_goto_last.2",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "2_goto_last.2",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "2_goto_last.2",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "2_goto_last.2",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "2_goto_last.2",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "2_goto_last.2",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "2_goto_last.2",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "2_goto_last.2",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "2_goto_last.2",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "2_goto_last.2",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "2_goto_last.2",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "2_goto_last.2",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.2",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.2",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.2",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.2",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.2",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.2",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.2",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.2",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.2",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.2",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "2_goto_last.3": [
+      {
+        "read": ".",
+        "to_state": "3_checklast.3",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "2_goto_last.3",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "2_goto_last.3",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "2_goto_last.3",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "2_goto_last.3",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "2_goto_last.3",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "2_goto_last.3",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "2_goto_last.3",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "2_goto_last.3",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "2_goto_last.3",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "2_goto_last.3",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "2_goto_last.3",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "2_goto_last.3",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "2_goto_last.3",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "2_goto_last.3",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "2_goto_last.3",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "2_goto_last.3",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "2_goto_last.3",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "2_goto_last.3",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "2_goto_last.3",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "2_goto_last.3",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "2_goto_last.3",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "2_goto_last.3",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "2_goto_last.3",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "2_goto_last.3",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "2_goto_last.3",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "2_goto_last.3",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.3",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.3",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.3",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.3",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.3",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.3",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.3",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.3",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.3",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.3",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "2_goto_last.4": [
+      {
+        "read": ".",
+        "to_state": "3_checklast.4",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "2_goto_last.4",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "2_goto_last.4",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "2_goto_last.4",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "2_goto_last.4",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "2_goto_last.4",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "2_goto_last.4",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "2_goto_last.4",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "2_goto_last.4",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "2_goto_last.4",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "2_goto_last.4",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "2_goto_last.4",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "2_goto_last.4",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "2_goto_last.4",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "2_goto_last.4",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "2_goto_last.4",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "2_goto_last.4",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "2_goto_last.4",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "2_goto_last.4",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "2_goto_last.4",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "2_goto_last.4",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "2_goto_last.4",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "2_goto_last.4",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "2_goto_last.4",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "2_goto_last.4",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "2_goto_last.4",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "2_goto_last.4",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.4",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.4",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.4",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.4",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.4",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.4",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.4",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.4",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.4",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.4",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "2_goto_last.5": [
+      {
+        "read": ".",
+        "to_state": "3_checklast.5",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "2_goto_last.5",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "2_goto_last.5",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "2_goto_last.5",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "2_goto_last.5",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "2_goto_last.5",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "2_goto_last.5",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "2_goto_last.5",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "2_goto_last.5",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "2_goto_last.5",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "2_goto_last.5",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "2_goto_last.5",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "2_goto_last.5",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "2_goto_last.5",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "2_goto_last.5",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "2_goto_last.5",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "2_goto_last.5",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "2_goto_last.5",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "2_goto_last.5",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "2_goto_last.5",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "2_goto_last.5",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "2_goto_last.5",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "2_goto_last.5",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "2_goto_last.5",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "2_goto_last.5",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "2_goto_last.5",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "2_goto_last.5",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.5",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.5",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.5",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.5",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.5",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.5",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.5",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.5",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.5",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.5",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "2_goto_last.6": [
+      {
+        "read": ".",
+        "to_state": "3_checklast.6",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "2_goto_last.6",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "2_goto_last.6",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "2_goto_last.6",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "2_goto_last.6",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "2_goto_last.6",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "2_goto_last.6",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "2_goto_last.6",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "2_goto_last.6",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "2_goto_last.6",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "2_goto_last.6",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "2_goto_last.6",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "2_goto_last.6",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "2_goto_last.6",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "2_goto_last.6",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "2_goto_last.6",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "2_goto_last.6",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "2_goto_last.6",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "2_goto_last.6",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "2_goto_last.6",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "2_goto_last.6",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "2_goto_last.6",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "2_goto_last.6",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "2_goto_last.6",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "2_goto_last.6",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "2_goto_last.6",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "2_goto_last.6",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.6",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.6",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.6",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.6",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.6",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.6",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.6",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.6",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.6",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.6",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "2_goto_last.7": [
+      {
+        "read": ".",
+        "to_state": "3_checklast.7",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "2_goto_last.7",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "2_goto_last.7",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "2_goto_last.7",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "2_goto_last.7",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "2_goto_last.7",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "2_goto_last.7",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "2_goto_last.7",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "2_goto_last.7",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "2_goto_last.7",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "2_goto_last.7",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "2_goto_last.7",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "2_goto_last.7",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "2_goto_last.7",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "2_goto_last.7",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "2_goto_last.7",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "2_goto_last.7",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "2_goto_last.7",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "2_goto_last.7",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "2_goto_last.7",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "2_goto_last.7",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "2_goto_last.7",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "2_goto_last.7",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "2_goto_last.7",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "2_goto_last.7",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "2_goto_last.7",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "2_goto_last.7",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.7",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.7",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.7",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.7",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.7",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.7",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.7",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.7",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.7",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.7",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "2_goto_last.8": [
+      {
+        "read": ".",
+        "to_state": "3_checklast.8",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "2_goto_last.8",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "2_goto_last.8",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "2_goto_last.8",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "2_goto_last.8",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "2_goto_last.8",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "2_goto_last.8",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "2_goto_last.8",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "2_goto_last.8",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "2_goto_last.8",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "2_goto_last.8",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "2_goto_last.8",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "2_goto_last.8",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "2_goto_last.8",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "2_goto_last.8",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "2_goto_last.8",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "2_goto_last.8",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "2_goto_last.8",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "2_goto_last.8",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "2_goto_last.8",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "2_goto_last.8",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "2_goto_last.8",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "2_goto_last.8",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "2_goto_last.8",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "2_goto_last.8",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "2_goto_last.8",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "2_goto_last.8",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.8",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.8",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.8",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.8",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.8",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.8",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.8",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.8",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.8",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.8",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "2_goto_last.9": [
+      {
+        "read": ".",
+        "to_state": "3_checklast.9",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "2_goto_last.9",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "2_goto_last.9",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "2_goto_last.9",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "2_goto_last.9",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "2_goto_last.9",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "2_goto_last.9",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "2_goto_last.9",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "2_goto_last.9",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "2_goto_last.9",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "2_goto_last.9",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "2_goto_last.9",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "2_goto_last.9",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "2_goto_last.9",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "2_goto_last.9",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "2_goto_last.9",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "2_goto_last.9",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "2_goto_last.9",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "2_goto_last.9",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "2_goto_last.9",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "2_goto_last.9",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "2_goto_last.9",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "2_goto_last.9",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "2_goto_last.9",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "2_goto_last.9",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "2_goto_last.9",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "2_goto_last.9",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "2_goto_last.9",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "2_goto_last.9",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "2_goto_last.9",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "2_goto_last.9",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "2_goto_last.9",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "2_goto_last.9",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "2_goto_last.9",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "2_goto_last.9",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "2_goto_last.9",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "2_goto_last.9",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "3_checklast.a": [
@@ -4829,6 +8759,66 @@
         "read": "z",
         "to_state": "4_return_false",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -4994,6 +8984,66 @@
         "to_state": "4_return_false",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "3_checklast.c": [
@@ -5157,6 +9207,66 @@
         "read": "z",
         "to_state": "4_return_false",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -5322,6 +9432,66 @@
         "to_state": "4_return_false",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "3_checklast.e": [
@@ -5485,6 +9655,66 @@
         "read": "z",
         "to_state": "4_return_false",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -5650,6 +9880,66 @@
         "to_state": "4_return_false",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "3_checklast.g": [
@@ -5813,6 +10103,66 @@
         "read": "z",
         "to_state": "4_return_false",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -5978,6 +10328,66 @@
         "to_state": "4_return_false",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "3_checklast.i": [
@@ -6141,6 +10551,66 @@
         "read": "z",
         "to_state": "4_return_false",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -6306,6 +10776,66 @@
         "to_state": "4_return_false",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "3_checklast.k": [
@@ -6469,6 +10999,66 @@
         "read": "z",
         "to_state": "4_return_false",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -6634,6 +11224,66 @@
         "to_state": "4_return_false",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "3_checklast.m": [
@@ -6797,6 +11447,66 @@
         "read": "z",
         "to_state": "4_return_false",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -6962,6 +11672,66 @@
         "to_state": "4_return_false",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "3_checklast.o": [
@@ -7125,6 +11895,66 @@
         "read": "z",
         "to_state": "4_return_false",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -7290,6 +12120,66 @@
         "to_state": "4_return_false",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "3_checklast.q": [
@@ -7453,6 +12343,66 @@
         "read": "z",
         "to_state": "4_return_false",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -7618,6 +12568,66 @@
         "to_state": "4_return_false",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "3_checklast.s": [
@@ -7781,6 +12791,66 @@
         "read": "z",
         "to_state": "4_return_false",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -7946,6 +13016,66 @@
         "to_state": "4_return_false",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "3_checklast.u": [
@@ -8109,6 +13239,66 @@
         "read": "z",
         "to_state": "4_return_false",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -8274,6 +13464,66 @@
         "to_state": "4_return_false",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "3_checklast.w": [
@@ -8437,6 +13687,66 @@
         "read": "z",
         "to_state": "4_return_false",
         "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
         "action": "RIGHT"
       }
     ],
@@ -8602,6 +13912,66 @@
         "to_state": "4_return_false",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "3_checklast.y": [
@@ -8766,6 +14136,66 @@
         "to_state": "4_return_false",
         "write": "z",
         "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
       }
     ],
     "3_checklast.z": [
@@ -8929,6 +14359,2306 @@
         "read": "y",
         "to_state": "4_return_false",
         "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "3_checklast.0": [
+      {
+        "read": ".",
+        "to_state": "HALT",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "5_goto_first",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "4_return_false",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "4_return_false",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "4_return_false",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "4_return_false",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "4_return_false",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "4_return_false",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "4_return_false",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "4_return_false",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "4_return_false",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "4_return_false",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "4_return_false",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "4_return_false",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "4_return_false",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "4_return_false",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "4_return_false",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "4_return_false",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "4_return_false",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "4_return_false",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "4_return_false",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "4_return_false",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "4_return_false",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "4_return_false",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "4_return_false",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "4_return_false",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "4_return_false",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "4_return_false",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "3_checklast.1": [
+      {
+        "read": ".",
+        "to_state": "HALT",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "5_goto_first",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "4_return_false",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "4_return_false",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "4_return_false",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "4_return_false",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "4_return_false",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "4_return_false",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "4_return_false",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "4_return_false",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "4_return_false",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "4_return_false",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "4_return_false",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "4_return_false",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "4_return_false",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "4_return_false",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "4_return_false",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "4_return_false",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "4_return_false",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "4_return_false",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "4_return_false",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "4_return_false",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "4_return_false",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "4_return_false",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "4_return_false",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "4_return_false",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "4_return_false",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "4_return_false",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "3_checklast.2": [
+      {
+        "read": ".",
+        "to_state": "HALT",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "5_goto_first",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "4_return_false",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "4_return_false",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "4_return_false",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "4_return_false",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "4_return_false",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "4_return_false",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "4_return_false",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "4_return_false",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "4_return_false",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "4_return_false",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "4_return_false",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "4_return_false",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "4_return_false",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "4_return_false",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "4_return_false",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "4_return_false",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "4_return_false",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "4_return_false",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "4_return_false",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "4_return_false",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "4_return_false",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "4_return_false",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "4_return_false",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "4_return_false",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "4_return_false",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "4_return_false",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "3_checklast.3": [
+      {
+        "read": ".",
+        "to_state": "HALT",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "5_goto_first",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "4_return_false",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "4_return_false",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "4_return_false",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "4_return_false",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "4_return_false",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "4_return_false",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "4_return_false",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "4_return_false",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "4_return_false",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "4_return_false",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "4_return_false",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "4_return_false",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "4_return_false",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "4_return_false",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "4_return_false",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "4_return_false",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "4_return_false",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "4_return_false",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "4_return_false",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "4_return_false",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "4_return_false",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "4_return_false",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "4_return_false",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "4_return_false",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "4_return_false",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "4_return_false",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "3_checklast.4": [
+      {
+        "read": ".",
+        "to_state": "HALT",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "5_goto_first",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "4_return_false",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "4_return_false",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "4_return_false",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "4_return_false",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "4_return_false",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "4_return_false",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "4_return_false",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "4_return_false",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "4_return_false",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "4_return_false",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "4_return_false",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "4_return_false",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "4_return_false",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "4_return_false",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "4_return_false",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "4_return_false",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "4_return_false",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "4_return_false",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "4_return_false",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "4_return_false",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "4_return_false",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "4_return_false",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "4_return_false",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "4_return_false",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "4_return_false",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "4_return_false",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "3_checklast.5": [
+      {
+        "read": ".",
+        "to_state": "HALT",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "5_goto_first",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "4_return_false",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "4_return_false",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "4_return_false",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "4_return_false",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "4_return_false",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "4_return_false",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "4_return_false",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "4_return_false",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "4_return_false",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "4_return_false",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "4_return_false",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "4_return_false",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "4_return_false",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "4_return_false",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "4_return_false",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "4_return_false",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "4_return_false",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "4_return_false",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "4_return_false",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "4_return_false",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "4_return_false",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "4_return_false",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "4_return_false",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "4_return_false",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "4_return_false",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "4_return_false",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "3_checklast.6": [
+      {
+        "read": ".",
+        "to_state": "HALT",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "5_goto_first",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "4_return_false",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "4_return_false",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "4_return_false",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "4_return_false",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "4_return_false",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "4_return_false",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "4_return_false",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "4_return_false",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "4_return_false",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "4_return_false",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "4_return_false",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "4_return_false",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "4_return_false",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "4_return_false",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "4_return_false",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "4_return_false",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "4_return_false",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "4_return_false",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "4_return_false",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "4_return_false",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "4_return_false",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "4_return_false",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "4_return_false",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "4_return_false",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "4_return_false",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "4_return_false",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "3_checklast.7": [
+      {
+        "read": ".",
+        "to_state": "HALT",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "5_goto_first",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "4_return_false",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "4_return_false",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "4_return_false",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "4_return_false",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "4_return_false",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "4_return_false",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "4_return_false",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "4_return_false",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "4_return_false",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "4_return_false",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "4_return_false",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "4_return_false",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "4_return_false",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "4_return_false",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "4_return_false",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "4_return_false",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "4_return_false",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "4_return_false",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "4_return_false",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "4_return_false",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "4_return_false",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "4_return_false",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "4_return_false",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "4_return_false",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "4_return_false",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "4_return_false",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "3_checklast.8": [
+      {
+        "read": ".",
+        "to_state": "HALT",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "5_goto_first",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "4_return_false",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "4_return_false",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "4_return_false",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "4_return_false",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "4_return_false",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "4_return_false",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "4_return_false",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "4_return_false",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "4_return_false",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "4_return_false",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "4_return_false",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "4_return_false",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "4_return_false",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "4_return_false",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "4_return_false",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "4_return_false",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "4_return_false",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "4_return_false",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "4_return_false",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "4_return_false",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "4_return_false",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "4_return_false",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "4_return_false",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "4_return_false",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "4_return_false",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "4_return_false",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "4_return_false",
+        "write": "9",
+        "action": "RIGHT"
+      }
+    ],
+    "3_checklast.9": [
+      {
+        "read": ".",
+        "to_state": "HALT",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "9",
+        "to_state": "5_goto_first",
+        "write": ".",
+        "action": "LEFT"
+      },
+      {
+        "read": "a",
+        "to_state": "4_return_false",
+        "write": "a",
+        "action": "RIGHT"
+      },
+      {
+        "read": "b",
+        "to_state": "4_return_false",
+        "write": "b",
+        "action": "RIGHT"
+      },
+      {
+        "read": "c",
+        "to_state": "4_return_false",
+        "write": "c",
+        "action": "RIGHT"
+      },
+      {
+        "read": "d",
+        "to_state": "4_return_false",
+        "write": "d",
+        "action": "RIGHT"
+      },
+      {
+        "read": "e",
+        "to_state": "4_return_false",
+        "write": "e",
+        "action": "RIGHT"
+      },
+      {
+        "read": "f",
+        "to_state": "4_return_false",
+        "write": "f",
+        "action": "RIGHT"
+      },
+      {
+        "read": "g",
+        "to_state": "4_return_false",
+        "write": "g",
+        "action": "RIGHT"
+      },
+      {
+        "read": "h",
+        "to_state": "4_return_false",
+        "write": "h",
+        "action": "RIGHT"
+      },
+      {
+        "read": "i",
+        "to_state": "4_return_false",
+        "write": "i",
+        "action": "RIGHT"
+      },
+      {
+        "read": "j",
+        "to_state": "4_return_false",
+        "write": "j",
+        "action": "RIGHT"
+      },
+      {
+        "read": "k",
+        "to_state": "4_return_false",
+        "write": "k",
+        "action": "RIGHT"
+      },
+      {
+        "read": "l",
+        "to_state": "4_return_false",
+        "write": "l",
+        "action": "RIGHT"
+      },
+      {
+        "read": "m",
+        "to_state": "4_return_false",
+        "write": "m",
+        "action": "RIGHT"
+      },
+      {
+        "read": "n",
+        "to_state": "4_return_false",
+        "write": "n",
+        "action": "RIGHT"
+      },
+      {
+        "read": "o",
+        "to_state": "4_return_false",
+        "write": "o",
+        "action": "RIGHT"
+      },
+      {
+        "read": "p",
+        "to_state": "4_return_false",
+        "write": "p",
+        "action": "RIGHT"
+      },
+      {
+        "read": "q",
+        "to_state": "4_return_false",
+        "write": "q",
+        "action": "RIGHT"
+      },
+      {
+        "read": "r",
+        "to_state": "4_return_false",
+        "write": "r",
+        "action": "RIGHT"
+      },
+      {
+        "read": "s",
+        "to_state": "4_return_false",
+        "write": "s",
+        "action": "RIGHT"
+      },
+      {
+        "read": "t",
+        "to_state": "4_return_false",
+        "write": "t",
+        "action": "RIGHT"
+      },
+      {
+        "read": "u",
+        "to_state": "4_return_false",
+        "write": "u",
+        "action": "RIGHT"
+      },
+      {
+        "read": "v",
+        "to_state": "4_return_false",
+        "write": "v",
+        "action": "RIGHT"
+      },
+      {
+        "read": "w",
+        "to_state": "4_return_false",
+        "write": "w",
+        "action": "RIGHT"
+      },
+      {
+        "read": "x",
+        "to_state": "4_return_false",
+        "write": "x",
+        "action": "RIGHT"
+      },
+      {
+        "read": "y",
+        "to_state": "4_return_false",
+        "write": "y",
+        "action": "RIGHT"
+      },
+      {
+        "read": "z",
+        "to_state": "4_return_false",
+        "write": "z",
+        "action": "RIGHT"
+      },
+      {
+        "read": "0",
+        "to_state": "4_return_false",
+        "write": "0",
+        "action": "RIGHT"
+      },
+      {
+        "read": "1",
+        "to_state": "4_return_false",
+        "write": "1",
+        "action": "RIGHT"
+      },
+      {
+        "read": "2",
+        "to_state": "4_return_false",
+        "write": "2",
+        "action": "RIGHT"
+      },
+      {
+        "read": "3",
+        "to_state": "4_return_false",
+        "write": "3",
+        "action": "RIGHT"
+      },
+      {
+        "read": "4",
+        "to_state": "4_return_false",
+        "write": "4",
+        "action": "RIGHT"
+      },
+      {
+        "read": "5",
+        "to_state": "4_return_false",
+        "write": "5",
+        "action": "RIGHT"
+      },
+      {
+        "read": "6",
+        "to_state": "4_return_false",
+        "write": "6",
+        "action": "RIGHT"
+      },
+      {
+        "read": "7",
+        "to_state": "4_return_false",
+        "write": "7",
+        "action": "RIGHT"
+      },
+      {
+        "read": "8",
+        "to_state": "4_return_false",
+        "write": "8",
         "action": "RIGHT"
       }
     ]

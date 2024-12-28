@@ -1,13 +1,21 @@
 import json
 import copy
+import sys
 
 def expand_states(data):
     states = data["states"]
     for state in states:
+        letters = None
         if state.endswith(".<alpha>"):
+            placeholder = "<alpha>"
+            letters = "abcdefghijklmnopqrstuvwxyz"
+        elif state.endswith(".<alphanum>"):
+            placeholder = "<alphanum>"
+            letters = "abcdefghijklmnopqrstuvwxyz0123456789"
+        if letters:
             expanded_states = []
-            for letter in "abcdefghijklmnopqrstuvwxyz":
-                new_state = state.replace("<alpha>", letter)
+            for letter in letters:
+                new_state = state.replace(placeholder, letter)
                 expanded_states.append(new_state)
             idx = states.index(state)
             data["states"] = states[:idx] + expanded_states + states[idx+1:]
@@ -15,17 +23,24 @@ def expand_states(data):
 def expand_transition_rules_alpha(data):
     transition_rules = copy.deepcopy(data["transitions"])
     for state, rules in transition_rules.items():
+        letters = None
         if state.endswith(".<alpha>"):
+            placeholder = "<alpha>"
+            letters = "abcdefghijklmnopqrstuvwxyz"
+        elif state.endswith(".<alphanum>"):
+            placeholder = "<alphanum>"
+            letters = "abcdefghijklmnopqrstuvwxyz0123456789"
+        if letters:
             expanded = {}
-            for letter in "abcdefghijklmnopqrstuvwxyz":
-                new_state = state.replace("<alpha>", letter)
+            for letter in letters:
+                new_state = state.replace(placeholder, letter)
                 new_rules = copy.deepcopy(rules)
                 for rule in new_rules:
-                    if rule["read"] == "<alpha>":
+                    if rule["read"] == placeholder:
                         rule["read"] = letter
-                    if rule["to_state"].endswith(".<alpha>"):
-                        rule["to_state"] = rule["to_state"].replace("<alpha>", letter)
-                    if rule["write"] == "<alpha>":
+                    if rule["to_state"].endswith(placeholder):
+                        rule["to_state"] = rule["to_state"].replace(placeholder, letter)
+                    if rule["write"] == placeholder:
                         rule["write"] = letter
                 expanded.update({new_state: new_rules})
             data["transitions"].update(expanded)
@@ -51,37 +66,24 @@ def expand_transition_rules(data):
     expand_transition_rules_alpha(data)
     expand_transition_rules_any(data)
 
+def load_json_from_file(file_path):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+            return data
+    except FileNotFoundError:
+        print(f"Error: File not found - {file_path}")
+        sys.exit(1)
+    except json.JSONDecodeError as e:
+        print(f"Error: Invalid JSON format - {e}")
+        sys.exit(1)
+
 if __name__ == '__main__':
-    data = {
-        "name"   : "is_palindrome",
-        "alphabet": [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "." ],
-        "blank"  : ".",
-        "states" : [ "1_main_loop", "2_goto_last.<alpha>", "3_checklast", "4_return_false", "5_goto_first", "HALT" ],
-        "initial" : "1_main_loop",
-        "finals" : [ "HALT" ],
-        "transitions" : {
-            "1_main_loop": [
-                { "read" : ".", "to_state": "HALT", "write": "y", "action": "RIGHT"},
-                { "read" : "<any>", "to_state": "2_goto_last.<read>", "write": ".", "action": "RIGHT"},
-            ],
-            "2_goto_last.<alpha>": [
-                { "read" : ".", "to_state": "3_checklast.<alpha>", "write": ".", "action": "LEFT"},
-                { "read" : "<any>", "to_state": "2_goto_last.<alpha>", "write": "<read>", "action": "RIGHT"},
-            ],
-            "3_checklast.<alpha>": [
-                { "read" : ".", "to_state": "HALT", "write": "y", "action": "RIGHT"},
-                { "read" : "<alpha>", "to_state": "5_goto_first", "write": ".", "action": "LEFT"},
-                { "read" : "<any>", "to_state": "4_return_false", "write": "<read>", "action": "RIGHT"},
-            ],
-            "4_return_false": [
-                { "read" : ".", "to_state": "HALT", "write": "n", "action": "RIGHT"}
-            ],
-            "5_goto_first": [
-                { "read" : ".", "to_state": "1_main_loop", "write": ".", "action": "RIGHT"},
-                { "read" : "<any>", "to_state": "5_goto_first", "write": "<read>", "action": "LEFT"},
-            ]
-        }
-    }
+    if len(sys.argv) != 2:
+        print("Usage: python expand.py <path>")
+        sys.exit(1)
+    file_path = sys.argv[1]
+    data = load_json_from_file(file_path)
     expand_states(data)
     expand_transition_rules(data)
     print(json.dumps(data, indent=2))
