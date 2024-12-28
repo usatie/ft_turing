@@ -1,0 +1,38 @@
+{
+	"name"   : "is_pow_of_two",
+	"alphabet": [ "0", "M", ".", "y", "n" ],
+	"blank"  : ".",
+	"states" : [ "1_empty_input", "2_input_validation", "3_goto_first", "4", "YES", "NO" ],
+	"initial" : "1_empty_input",
+	"finals" : [ "YES", "NO" ],
+	"transitions" : {
+		"1_empty_input": [
+			{ "read" : "0", "to_state": "2_input_validation", "write": "0", "action": "RIGHT"},
+			{ "read" : "M", "to_state": "2_input_validation", "write": "M", "action": "RIGHT"},
+			{ "read" : "y", "to_state": "2_input_validation", "write": "y", "action": "RIGHT"},
+			{ "read" : "n", "to_state": "2_input_validation", "write": "n", "action": "RIGHT"},
+			{ "read" : ".", "to_state": "NO", "write": "n", "action": "RIGHT"}
+		],
+		"2_input_validation": [
+			{ "read" : "0", "to_state": "2_input_validation", "write": "0", "action": "RIGHT"},
+			{ "read" : "M", "to_state": "exit.no", "write": "M", "action": "RIGHT"},
+			{ "read" : "y", "to_state": "exit.no", "write": "y", "action": "RIGHT"},
+			{ "read" : "n", "to_state": "exit.no", "write": "n", "action": "RIGHT"},
+			{ "read" : ".", "to_state": "3_goto_first", "write": ".", "action": "LEFT"}
+		],
+		"3_goto_first": [
+			{ "read" : "0", "to_state": "3_goto_first", "write": "0", "action": "LEFT"},
+			{ "read" : "M", "to_state": "3_goto_first", "write": "M", "action": "LEFT"},
+			{ "read" : ".", "to_state": "4", "write": ".", "action": "RIGHT"}
+		],
+		"4": [],
+		"exit.no": [
+			{ "read" : "0", "to_state": "exit.no", "write": "0", "action": "RIGHT"},
+			{ "read" : "M", "to_state": "exit.no", "write": "M", "action": "RIGHT"},
+			{ "read" : "y", "to_state": "exit.no", "write": "y", "action": "RIGHT"},
+			{ "read" : "n", "to_state": "exit.no", "write": "n", "action": "RIGHT"},
+			{ "read" : ".", "to_state": "NO", "write": "n", "action": "RIGHT"}
+		]
+	}
+}
+
