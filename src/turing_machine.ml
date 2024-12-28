@@ -31,5 +31,25 @@ let rec run_machine machine =
       | Right -> machine.head_pos + 1
     in
     let new_state = rule.to_state in
-    run_machine
-      { machine with tape = new_tape; head_pos = new_pos; state = new_state })
+    (* Extend tape if necessary *)
+    let new_tape =
+      if new_pos < 0 then "." ^ new_tape
+      else if new_pos >= String.length new_tape then new_tape ^ "."
+      else new_tape
+    in
+    let is_extended = new_tape <> machine.tape in
+    let new_pos = if new_pos < 0 then 0 else new_pos in
+    (* Detect infinite loop *)
+    let next_read = new_tape.[new_pos] in
+    let infinite_loop =
+      is_extended && machine.state = new_state && read = next_read
+    in
+    if infinite_loop then (
+      Printf.printf "Infinite loop detected\n";
+      exit 1);
+    (* Create new machine *)
+    let new_machine =
+      { machine with tape = new_tape; head_pos = new_pos; state = new_state }
+    in
+    (* Tail call recursion *)
+    run_machine new_machine)
