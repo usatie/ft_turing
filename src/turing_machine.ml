@@ -37,7 +37,7 @@ let rec run_machine machine =
       else if new_pos >= String.length new_tape then new_tape ^ "."
       else new_tape
     in
-    let is_extended = new_tape <> machine.tape in
+    let is_extended = String.length new_tape <> String.length machine.tape in
     let new_pos = if new_pos < 0 then 0 else new_pos in
     (* Detect infinite loop *)
     let next_read = new_tape.[new_pos] in
@@ -46,6 +46,16 @@ let rec run_machine machine =
     in
     if infinite_loop then (
       Printf.printf "Infinite loop detected\n";
+      (* Debug *)
+      (*
+      Printf.printf "is_extended: %b\n" is_extended;
+      Printf.printf "new_tape: %s\n" new_tape;
+      Printf.printf "machine.tape: %s\n" machine.tape;
+      Printf.printf "machine.state: %s\n" machine.state;
+      Printf.printf "new_state: %s\n" new_state;
+      Printf.printf "read: %c\n" read;
+      Printf.printf "next_read: %c\n" next_read;
+      *)
       exit 1);
     (* Create new machine *)
     let new_machine =
